@@ -8,4 +8,4 @@ The way it works is you pick a pivot element usually in the center of the array.
  
 Next you will continue to run each `less than` and `greater than` sub-set through the quick sort.  Continuing this process will result in a sorted array.  
 
-The BigO for a quick sort is `O(log n)`
+The BigO for a quick sort is `O(n log n)` on average and `O(n^2)` in the worst case scenario.  Worst case scenario would arise if you were to pick your pivot point index at the beginning or end of the array. 
